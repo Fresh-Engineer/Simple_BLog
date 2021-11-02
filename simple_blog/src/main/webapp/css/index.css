@@ -1,0 +1,173 @@
+#push{
+    width: 100%;
+    height: auto;
+    background-image: url("../image/background.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 楷体;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.blog {
+    width: 800px;
+    height: 262px;
+    margin: 10px auto;
+    display: block;
+    /*background-color: deepskyblue;*/
+}
+
+.blog_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    margin: 0 auto;
+    width: 760px;
+    height: 262px;
+    /*background-color: aquamarine;*/
+}
+
+.blog_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 760px;
+    height: 260px;
+    /*background-color: coral;*/
+}
+form label:nth-of-type(1){
+    width: 760px;
+    height: 180px;
+    display: block;
+    opacity: 50%;
+}
+
+form label:nth-of-type(2) {
+    width: 760px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    opacity: 50%;
+}
+
+.blog_content {
+    display: block;
+    width: 760px;
+    height: 180px;
+    font-size: 35px;
+    resize: none;
+}
+
+.words_length {
+    position: relative;
+    bottom: 25px;
+    left: 690px;
+    height: 60px;
+    width: 100px;
+    font-size: 18px;
+    color: black;
+}
+
+.user_name {
+    width: 360px;
+    height: 60px;
+    font-size: 28px;
+}
+
+.blog_sent, .reset {
+    width: 200px;
+    height: 64px;
+    background: darkorchid;
+    font-size: 22px;
+}
+
+.blog_body{
+    width: 760px;
+    margin: 0 auto;
+    background: aqua;
+    opacity: 80%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.blog_father{
+    width: 740px;
+    background: chartreuse;
+    margin: 0 auto;
+    opacity: revert;
+}
+.blog_father h3{
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+.blog_father p{
+    font-size: 24px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+.blog_father span{
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.blog_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 740px;
+}
+.blog_bottom span{
+    text-align: right;
+}
+
+.blog_bottom a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 8px 0;
+    background: cornflowerblue;
+    border-radius: 15px;
+}
+.blog_son{
+    width: 700px;
+    background: aquamarine;
+    margin-left: 40px;
+}
+.blog_bottom2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+}
+.blog_bottom2 a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    padding: 5px 0;
+    background: cornflowerblue;
+    border-radius: 10px;
+}
